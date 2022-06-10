@@ -1,0 +1,120 @@
+@media screen and (max-width: 800px) {
+  .h1,
+  .h2,
+  .h3,
+  h1,
+  h2,
+  h3 {
+    margin-top:0 !important;
+    margin-bottom: 103px;
+  }
+  #contact {
+      display: flex;
+    margin-top: 2896px;
+    text-align: center;
+
+    color: #ffffff;
+  }
+  #work {
+    /* position: absolute; */
+    width: 84px;
+    height: 33px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  #name-heading {
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 44px;
+    /* or 113% */
+
+    text-align: center;
+
+    color: #ffffff;
+  }
+
+  #sub-heading {
+    /* position: absolute; */
+    /* width: 199px;
+    height: 111px; */
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    /* or 143% */
+
+    color: #000000;
+  }
+  #welcome-section {
+    width: 100%;
+  }
+
+  /* portfolio section */
+
+  #projects {
+    position: absolute;
+    width: 100%;
+    height: 2897px;
+
+    background: #256b9b;
+    border-radius: 0px;
+  }
+
+  .container {
+    padding-right: 15px;
+    padding-left: 3px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.btn{
+    margin-bottom: 30px
+}
+
+.fa-facebook-square {
+    color: black !important;
+    font-size: 60px !important;
+  }
+
+
+  .fa-github-alt {
+    color: black;
+    font-size: 60px !important;
+  }
+
+
+  .fa-twitter-square {
+    color: black ;
+    font-size: 60px !important;
+  }
+
+  .fa-envelope {
+    color: black;
+    font-size: 60px !important;
+  }
+
+
+  .navbar a {
+   
+    padding: 33px 33px !important;
+   
+  }
+
+}

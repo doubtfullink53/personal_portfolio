@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title></title>
+    <title>Portfolio</title>
     <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-  rel="stylesheet"  type='text/css'
+    <link rel="stylesheet" href="css/mobile.css">     
 
     <script src="script.js"></script>
-<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
@@ -26,13 +26,13 @@
 <nav id="navbar" class="navbar">
 
   <a href="#welcome-section">About</a>
-  <a href="#projects">Work</a>
-  <a href="#contact">Contact</a>
+  <a href="#projects" id="work-navbar">Work</a>
+  <a href="#contact" id="contact-navbar">Contact</a>
 
 </nav>
 <section id="welcome-section">
-  <h1> Robert Mathews </h1>
-  <p> Web developer</p>
+  <h1 id="name-heading"> Robert Mathews </h1>
+  <p id="sub-heading"> Web developer</p>
 
 </section>
 
@@ -65,7 +65,7 @@
       <div class="row">
           <div class="col-lg-4 mt-4">
               <div class="card">
-                  <img class="card-img-top" src="https://i.ibb.co/qFTGkXt/randomquotegenerator.png" alt="random quote generator" style="width: 342px; height: 251px;">
+                  <img class="card-img-top" id="first-image" src="https://i.ibb.co/qFTGkXt/randomquotegenerator.png" alt="random quote generator" style="width: 342px; height: 251px;">
                   <div class="card-body">
                       <h4 class="card-title"> Random Quote Machine</h4>
                       <p class="card-text">Generates random quotes</p>
