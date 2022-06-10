@@ -4,10 +4,14 @@
 h1,
 h2,
 h3 {
-  margin-top: -61px;
-  margin-bottom: 103px;
+  margin-top: 0%;
+  margin-bottom: 11%;
 }
-
+.btn{
+  font-size: 200%;
+  margin-bottom: 10%;
+}
+/* navbar section */
 .navbar {
   background-color: #16405d;
   overflow: hidden;
@@ -19,9 +23,9 @@ h3 {
   float: right;
   color: #ffffff;
   text-align: center;
-  padding: 16px 45px;
+  padding: 1% 6%;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 200%;
 }
 
 #welcome-section {
@@ -39,59 +43,59 @@ h1 {
   /*   font-weight: 700; */
   text-align: center;
   color: #ffffff;
-  font-size: 40px;
+  font-size: 300%;
+  
+}
+h2{
+  font-size: 400%;
+  color: #ffffff;
 }
 p {
   color: black;
-  bottom: 20px;
-  font-size: 30px;
+  bottom: 20%;
+  font-size: 210%;
 }
 
 body {
   display: block;
-  margin: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-.contact-links{
-  padding-top: 100px;
-}
-.fa-facebook-square {
-  color: black ;
-  font-size: 20px ;
+  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
-.fa-github-alt {
-  color: black ;
-  font-size: 20px ;
-}
-.fa-twitter-square {
-  color: black ;
-  font-size: 20px ;
-}
-.fa-envelope {
-  color: black ;
-  font-size: 20px ;
-}
-
+/* projects section */
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem;
+  padding: 8% 10%;
   background: #256b9b;
 }
 
+
 .projects-section-header {
-  margin: 0 auto 1em auto;
+  margin: 0 auto 20% auto;
   /* border-bottom: 0.2rem solid white; */
 }
+.card-img-top{
 
-h2 {
-  font-size: 4.1rem;
-  color: white;
-  text-shadow: white 0px 0px 2px;
+  float:center;
+  width:  90%;
+  height: 50vh;
+  object-fit: cover;
 }
+.card-img-bottom{
+
+  float:center;
+  width:  90%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+
+
+
 
 /* contact */
 
@@ -102,22 +106,28 @@ h2 {
   align-items: center;
   text-align: center;
 
-  height: 80vh;
-  padding: 0 2rem;
+  height: 90vh;
+  padding: 1%;
   background: #2f88c4;
 }
+.contact-links{
+  padding-top: 10%;
+ 
+}
+.fa-facebook-square {
+  color: black ;
+  font-size: 200% ;
+}
 
-/* @media only screen and (max-width: 600px) {
-  section {
-    height: 100vh;
-  }
-
-  @media only screen and (max-width: 400px) {
-    .navbar {
-      background-color: #8b0000;
-      overflow: hidden;
-      width: 100%;
-      position: fixed;
-    }
-  }
-} */
+.fa-github-alt {
+  color: black ;
+  font-size: 200% ;
+}
+.fa-twitter-square {
+  color: black ;
+  font-size: 200% ;
+}
+.fa-envelope {
+  color: black ;
+  font-size: 200%;
+}
