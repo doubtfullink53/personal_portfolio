@@ -1,0 +1,103 @@
+.swiper {
+    height: 100vh;
+ 
+  }   
+  
+  
+  .swiper-slide{
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 60px;
+}
+
+#swiper-first-slide{
+  background-image: url("https://i.ibb.co/qFTGkXt/randomquotegenerator.png")
+}
+
+#swiper-second-slide{
+  background-image: url("https://i.ibb.co/mTPBqZf/squidgamewebsite.png")
+}
+#swiper-third-slide{
+  background-image: url("https://i.ibb.co/Mh7rXQF/generate-password.png");
+  
+}
+
+#swiper-fourth-slide{
+  background-image: url("https://i.ibb.co/mhR1Cn9/calc.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+}
+
+#swiper-fifth-slide{
+
+  background-image: url("https://i.ibb.co/5s75DwL/25-5-clock.png")
+  
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .swiper {
+    height: 500px;
+   
+  }   
+  
+  
+  .swiper-slide{
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 60px;
+}
+
+#swiper-first-slide{
+  background-image: url("https://i.ibb.co/H2H9mJ1/quotes.png");
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+ 
+  background-color: gray;
+}
+
+#swiper-second-slide{
+  background-image: url("https://i.ibb.co/mTPBqZf/squidgamewebsite.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+}
+#swiper-third-slide{
+  background-image: url("https://i.ibb.co/Mh7rXQF/generate-password.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+}
+
+#swiper-fourth-slide{
+  background-image: url("https://i.ibb.co/mhR1Cn9/calc.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+}
+
+#swiper-fifth-slide{
+
+  background-image: url("https://i.ibb.co/5s75DwL/25-5-clock.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: gray;
+  
+}
+ 
+}

@@ -10,10 +10,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 
-    <!-- <link rel="stylesheet" href="css/mobile.css">      -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 
-    <script src="script.js"></script>
+
+
+     
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slider.css">
   </head>
   <body>
 
@@ -38,7 +41,62 @@
 
 <section id="projects" class="projects-section">
     
-    <div class="container mt-3">
+
+
+
+
+
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      
+    <a class="swiper-slide" id="swiper-first-slide" href="https://doubtfullink53.github.io/random-quote-machine/" target="_blank"></a>
+    <a class="swiper-slide" id="swiper-second-slide" href="https://doubtfullink53.github.io/squid-game-tut/" target="_blank"></a>
+    <a class="swiper-slide" id="swiper-third-slide" href="https://doubtfullink53.github.io/generate-random-password/" target="_blank"></a>
+    <a class="swiper-slide" id="swiper-fourth-slide" href="https://doubtfullink53.github.io/javascript-calculator-react/" target="_blank"></a>
+    <a class="swiper-slide" id="swiper-fifth-slide" href="https://doubtfullink53.github.io/25-plus-5-clock-react/" target="_blank"></a>    
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container mt-3">
       <h1 class="text-center">Portfolio</h1>
       <div class="row">
           <div class="col-lg-4 mt-4">
@@ -122,7 +180,7 @@
               </div>
           </div>
       </div>
-  </div>
+  </div> -->
 
 </section>
 
@@ -140,7 +198,8 @@
       </a>
     <a href="mailto:ash.ql0l7@simplelogin.co" class="btn contact-details"><i class="fa fa-envelope" aria-hidden="true">Email</i>
       </a>
-
+    
+      
   </div>
 </section>
 
@@ -148,7 +207,9 @@
 
 
 
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
+<script src="./swiper.js"></script>
 
 </body>
 </html>
