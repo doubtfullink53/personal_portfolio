@@ -14,19 +14,19 @@
 }
 
 #swiper-first-slide{
-  background-image: url("https://i.ibb.co/qFTGkXt/randomquotegenerator.png")
+  background-image: url("../images/randomquotegenerator.png")
 }
 
 #swiper-second-slide{
-  background-image: url("https://i.ibb.co/mTPBqZf/squidgamewebsite.png")
+  background-image: url("../images/squidgamewebsite.png")
 }
 #swiper-third-slide{
-  background-image: url("https://i.ibb.co/Mh7rXQF/generate-password.png");
+  background-image: url("../images/generate-password.png");
   
 }
 
 #swiper-fourth-slide{
-  background-image: url("https://i.ibb.co/mhR1Cn9/calc.png");
+  background-image: url("../images/calc.png");
   background-size:contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -35,7 +35,7 @@
 
 #swiper-fifth-slide{
 
-  background-image: url("https://i.ibb.co/5s75DwL/25-5-clock.png")
+  background-image: url("../images/25-5-clock.png")
   
 }
 
